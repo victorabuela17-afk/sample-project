@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mabinay Spring - Natural Healing Waters</title>
+    <link rel="stylesheet" href="mab.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">🌿 Mabinay Spring</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#benefits" class="nav-link">Benefits</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Background Image -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Mabinay Spring</h1>
+            <p>Discover the Natural Healing Powers of Crystal Clear Waters</p>
+            <button class="btn btn-primary" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})">Learn More</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Mabinay Spring</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Mabinay Spring is a natural hot spring located in the beautiful municipality of Mabinay in Negros Oriental, Philippines. Known for its crystal-clear, mineral-rich waters, this natural wonder has been a destination for wellness seekers and nature lovers for generations.</p>
+                    <p>The spring water contains beneficial minerals and maintains a warm temperature year-round, making it an ideal location for relaxation and rejuvenation. Whether you're seeking healing, relaxation, or simply a connection with nature, Mabinay Spring offers an unforgettable experience.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://www.pinterest.com/pin/phillipines--480548222744022458/" alt="Natural Hot Spring">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <h2>Health Benefits</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">💧</div>
+                    <h3>Mineral Rich</h3>
+                    <p>The spring water is enriched with essential minerals that promote overall wellness and vitality.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🔥</div>
+                    <h3>Therapeutic Heat</h3>
+                    <p>The warm temperature helps relieve muscle tension and improve blood circulation.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">😌</div>
+                    <h3>Stress Relief</h3>
+                    <p>Immerse yourself in nature's healing embrace and find inner peace and tranquility.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">💪</div>
+                    <h3>Skin Health</h3>
+                    <p>The mineral composition helps cleanse and rejuvenate your skin naturally.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section with Lightbox -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Photo Gallery</h2>
+            <div class="gallery-grid">
+                <!-- Real Spring Images -->
+                <div class="gallery-item" data-full="https://images.unsplash.com/photo-1544161515-81e7b6675ad9?w=800&h=600&fit=crop">
+                    <img src="https://images.unsplash.com/photo-1544161515-81e7b6675ad9?w=400&h=300&fit=crop" alt="Crystal Clear Spring Waters">
+                    <div class="gallery-overlay">
+                        <span class="zoom-icon">🔍</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-full="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" alt="Hot Spring Pool">
+                    <div class="gallery-overlay">
+                        <span class="zoom-icon">🔍</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-full="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=600&fit=crop">
+                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&h=300&fit=crop" alt="Spring Landscape">
+                    <div class="gallery-overlay">
+                        <span class="zoom-icon">🔍</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-full="https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&h=600&fit=crop">
+                    <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=400&h=300&fit=crop" alt="Spa Hot Spring">
+                    <div class="gallery-overlay">
+                        <span class="zoom-icon">🔍</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-full="https://images.unsplash.com/photo-1540575467063-178b50c2df87?w=800&h=600&fit=crop">
+                    <img src="https://images.unsplash.com/photo-1540575467063-178b50c2df87?w=400&h=300&fit=crop" alt="Natural Pool">
+                    <div class="gallery-overlay">
+                        <span class="zoom-icon">🔍</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-full="https://images.unsplash.com/photo-1557804506-669714d2e9d8?w=800&h=600&fit=crop">
+                    <img src="https://images.unsplash.com/photo-1557804506-669714d2e9d8?w=400&h=300&fit=crop" alt="Spring Water Details">
+                    <div class="gallery-overlay">
+                        <span class="zoom-icon">🔍</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightboxModal" class="lightbox-modal">
+        <div class="lightbox-content">
+            <span class="lightbox-close">&times;</span>
+            <img id="lightboxImage" src="" alt="Full size image">
+            <div class="lightbox-nav">
+                <button class="lightbox-prev">❮</button>
+                <button class="lightbox-next">❯</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>📍 Location</h3>
+                        <p>Mabinay, Negros Oriental, Philippines</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>📞 Contact</h3>
+                        <p>+63 (0)35 408-2345</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>✉️ Email</h3>
+                        <p>info@mabinayspring.com</p>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Mabinay Spring. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">Facebook</a>
+                <a href="#" class="social-link">Instagram</a>
+                <a href="#" class="social-link">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="mab.js"></script>
+</body>
+</html>
